@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/button2"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_2"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_2"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button3"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_3"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_3"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button4"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_4"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_4"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button5"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_5"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_5"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/button6"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_6"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_6"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button7"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_7"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_7"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button8"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_8"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_8"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button9"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_9"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_9"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/button10"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_10"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_10"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonq"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_q"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_q"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="Q"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonj"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_j"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_j"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="J"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonk"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp" >
+
+            <CheckBox
+                android:id="@+id/box_k"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_k"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="K"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/buttona"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/box_a"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_a"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="A"
+                android:textColor="@color/text"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonheart"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" >
+
+            <CheckBox
+                android:id="@+id/box_heart"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_heart"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:src="@drawable/heart" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonspade"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" >
+
+            <CheckBox
+                android:id="@+id/box_spade"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_spade"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:src="@drawable/spade" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttondiamond"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" >
+
+            <CheckBox
+                android:id="@+id/box_diamond"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_diamond"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:src="@drawable/diamond" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/buttonclove"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" >
+
+            <CheckBox
+                android:id="@+id/box_clove"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_clove"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:src="@drawable/clove" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonjoker"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" >
+
+            <CheckBox
+                android:id="@+id/box_joker"
+                android:layout_width="fill_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentBottom="true"
+                android:button="@drawable/custombox"
+                android:checked="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/box_joker"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:src="@drawable/jokerb" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/filler"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/button" />
+
+        <ImageView
+            android:id="@+id/buttonsave"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

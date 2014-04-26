@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="text">#111111</color>
+    <color name="black">#111111</color>
+    <color name="button">#E3E3E3</color>
+    <color name="unchecked">#9E7654</color>
+    <color name="checked">#FF7700</color>
+    <color name="unchecked2">#83A6A6</color>
+    <color name="checked2">#00FFFF</color>
+    <color name="background">#212121</color>
+
+</resources>
